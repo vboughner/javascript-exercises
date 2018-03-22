@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sum of Numbers (Versa)</title>
+</head>
+<body>
+<div>
+    <p></p>
+</div>
+<script type="text/javascript">
+
+    // returns the sum of all numbers from 1 .. n
+    function sumOfNumbers(n) {
+        if (n < 1) {
+            console.log('Error: n is less than 1');
+            return 0;
+        }
+        else if (n === 1) {
+            return 1;
+        }
+        else {
+            return sumOfNumbers(n - 1) + n;
+        }
+    }
+
+    console.log(sumOfNumbers(100));
+
+</script>
+</body>
+</html>
