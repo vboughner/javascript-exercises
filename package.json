@@ -1,0 +1,19 @@
+{
+  "name": "javascript-exercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "balanced.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vboughner/javascript-exercises.git"
+  },
+  "author": "Van A. Boughner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vboughner/javascript-exercises/issues"
+  },
+  "homepage": "https://github.com/vboughner/javascript-exercises#readme"
+}
