@@ -9,11 +9,10 @@ function parenthesesAreBalanced(s)
     for (i = 0; i < len; i++)
 	{
 	    c = s[i];
-	    var bracePosition = parentheses.indexOf(c),
-		braceType;
-	    //~ is truthy for any number but -1
-	    if (!~bracePosition)
-		continue;
+	    var bracePosition = parentheses.indexOf(c);
+		var braceType;
+
+	    if (bracePosition === -1) continue;
 
 	    braceType = bracePosition % 2 ? 'closed' : 'open';
 
@@ -39,4 +38,4 @@ console.log('[(]) false', parenthesesAreBalanced('[(])'));
 console.log("{}([]) true", parenthesesAreBalanced("{}([])"));
 console.log("([}]) false", parenthesesAreBalanced("([}])"));
 console.log("([]) true", parenthesesAreBalanced("([])"));
-console.log("()[]{}[][]", parenthesesAreBalanced("()[]{}[][]"));
+console.log("()[]{}[][] true", parenthesesAreBalanced("()[]{}[][]"));

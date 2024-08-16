@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/vboughner/javascript-exercises/issues"
   },
-  "homepage": "https://github.com/vboughner/javascript-exercises#readme"
+  "homepage": "https://github.com/vboughner/javascript-exercises#readme",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
 }
